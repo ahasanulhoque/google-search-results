@@ -1,0 +1,160 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#navbar {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in {
+    background-color: #3385ff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    margin-left: 20px;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+}
+
+#search {
+    margin-left: 5%;
+    width: 600px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #e6e6e6;
+    padding-left: 10%;
+    padding-right: 47%;
+}
+
+#options p {
+    margin-right: 5px;
+}
+
+#options-left {
+    display: flex;
+}
+
+#options-right {
+    display: flex;
+}
+
+#meta {
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+#results {
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.result h2 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.url {
+    display: flex;
+}
+
+.green-link {
+    color: green;
+}
+
+.gray-link {
+    color: gray;
+    margin-left: 10px;
+}
+
+#video-results {
+    display: flex;
+}
+
+.video {
+    border: solid;
+    border-radius: 5%;
+    border-width: thin;
+    border-color: #e6e6e6;
+    margin-right: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#video-title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.thumbnail {
+    width: 99%;
+    height: auto;
+}
+
+.video-text {
+    padding-left: 5%;
+}
+
+.gray-text {
+    color: gray;
+}
+
+#also-ask {
+    border: solid;
+    border-radius: 5%;
+    border-width: thin;
+    border-color: #e6e6e6;
+    text-indent: 15px;
+}
+
+#also-ask h3 {
+    border-top: solid;
+    border-width: thin;
+    border-color: #e6e6e6;
+    width: 100%;
+}
+
+#foot {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 1%;
+    background-color: #f2f2f2;
+}
+
+#foot a {
+    color: gray;
+    margin-right: 2%;
+}
